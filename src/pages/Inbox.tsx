@@ -39,7 +39,7 @@ export default function Inbox() {
             <div className="flex justify-between items-center mb-12">
               <Link
                 to="/"
-                className="inline-flex items-center border border-violet-600 px-3 py-1.5 rounded-md text-violet-600"
+                className="inline-flex items-center w-fit border border-violet-600 px-3 py-1.5 rounded-md text-violet-600"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

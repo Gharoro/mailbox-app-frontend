@@ -27,7 +27,9 @@ export default function Home() {
       <div className="flex flex-col space-y-12 lg:space-y-0 md:flex-row items-center w-full lg:max-w-6xl px-6 py-8 mx-auto">
         <div className="w-full lg:w-1/2 py-8 space-y-12">
           {isLoading ? (
-            <Skeleton count={6} />
+            <div className="mb-8">
+              <Skeleton count={4} />
+            </div>
           ) : (
             <div className="space-y-4">
               <h1 className="text-violet-600 text-5xl font-semibold leading-none">
