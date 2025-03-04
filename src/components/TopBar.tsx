@@ -25,7 +25,7 @@ export default function TopBar() {
         {isLoading ? (
           <Skeleton />
         ) : (
-          <div className="flex justify-between items-center py-4">
+          <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center space-y-2 lg:space-y-0 py-4">
             {/* User Name */}
             <div className="text-lg font-semibold text-gray-800">
               Welcome, {user?.userName}!
